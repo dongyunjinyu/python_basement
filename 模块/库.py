@@ -1,8 +1,8 @@
 """
-python具有大量的第三方库，或者叫模块（module）
+python具有大量的第三方库（library），或者叫模块（module）,或者叫包（package）
 如何安装？
 1.使用集成工具自带安装器安装
-2.使用pip，有的人第一次用会遇见各种坑，解决起来比较复杂，不推荐；如果没有遇见坑那自然很简单
+2.使用pip，有的人第一次用会遇见各种坑，解决起来比较复杂；如果没有遇见坑那自然很简单
 3.官网下载，我不会
 
 现在我们选用第一种安装方法安装，以pycharm为例，左上角  文件（file）—— 设置（setting）—— 项目（project） —— python解释器
@@ -12,7 +12,7 @@ python具有大量的第三方库，或者叫模块（module）
 这一步是将下载地址改到了国内，否则不是下不了就是下的慢
 pycharm界面最下方读条完成后即安装成功
 """
-
+#记录本项目已经安装的包：numpy，matplotlib，torch，paddlepaddle-gpu，scipy，ipython，sympy
 
 ############### 使用 #############
 """
@@ -48,10 +48,9 @@ from 库名 import 函数名
 from numpy import zeros，ones，empty
 
 导入多个模块:
-import numpy as np,matplotlib as plt,……
+import numpy as np, matplotlib as plt,……
 
 """
-
 # 此外，库的学习目前建议在交互式python控制台进行，ipython也不错
 # ipython也是一个库，用上面的方法下载就行，下载完成，打开下方”python 控制台“看见In的字样就是
 # 所谓控制台，我的理解就是启用一大块内存，并且这块内存一直分配给控制台，只要你不关控制台内存就一直是它的
