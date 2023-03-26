@@ -12,9 +12,9 @@ python具有大量的第三方库（library），或者叫模块（module）,或
 这一步是将下载地址改到了国内，否则不是下不了就是下的慢
 pycharm界面最下方读条完成后即安装成功
 """
-#记录本项目已经安装的包：numpy，matplotlib，torch，paddlepaddle-gpu，scipy，ipython，sympy
+#记录本项目已经安装的包：numpy，matplotlib，torch，paddlepaddle-gpu，scipy，ipython，sympy,jieba,pyecharts,wordcloud
 
-############### 使用 #############
+############### 使用 ###############
 """
 我们要使用库里的函数，需要通过语法来实现
 
